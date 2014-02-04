@@ -11,7 +11,15 @@ This is the result of the first step:
 - the the editor (package RText) starts up and seems to work with the basic features
 - this project is developed in Netbeans 7.4
  
-**The goal is to integrate the Sikuli specifics: Image management and script run**
+**The goal is to integrate the Sikuli specifics:** 
+- Image management
+- script run
+- global options
+- autocomplete 
+
+and things that might be missing at first glance:
+- autoindentation
+- collapse line blocks
 
 This is really the very first step of work in progress.<br/>
 Especially not all license related aspects are in place.<br/>
