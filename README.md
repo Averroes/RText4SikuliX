@@ -1,9 +1,9 @@
 RText4SikuliX
 =============
 
-RText implementation for use with SikuliX
+RText implementation for use with SikuliX 
 
-Base are the works at: https://github.com/bobbylight
+(based on [the works here](https://github.com/bobbylight) from Robert Futrell at http://fifesoft.com/)
 
 This is the result of the first step:
 - converting the Eclipse/ANT based packages into a multimodule Maven project
