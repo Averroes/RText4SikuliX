@@ -8,7 +8,7 @@ RText implementation for use with SikuliX
 This is the result of the first step:
 - converting the Eclipse/ANT based packages into a multimodule Maven project
 - currently the RText4Sikuli package compiles on Mac OSX 10.9 with Java 7
-- the the editor (package RText) starts up and seems to work with the basic features
+- the editor (package RText) starts up and seems to work with the basic features
 - this project is developed in Netbeans 7.4
  
 **The goal is to integrate the Sikuli specifics:** 
