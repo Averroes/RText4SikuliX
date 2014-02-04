@@ -1,0 +1,22 @@
+function foobar() {
+   alert("Wow");
+}
+
+/**
+ * Another function.
+ *
+ * @param name Your name.
+ */
+function another(name) {
+   alert("Hello there, " + name + "!");
+}
+
+var abc;
+var aaa;
+
+function what(foo) {
+   var temp = 44;
+   
+}
+
+var goo = 'Hello world';
