@@ -434,6 +434,8 @@ int currentCaretY;							// Used to know when to rehighlight current line.
 					font = sc.getFont("Monospaced", Font.PLAIN, 13);
 				}
 			}
+//TODO RaiMan
+      font = sc.getFont("Monospaced", Font.TRUETYPE_FONT, 14);
 		}
 		else {
 			// Consolas added in Vista, used by VS2010+.

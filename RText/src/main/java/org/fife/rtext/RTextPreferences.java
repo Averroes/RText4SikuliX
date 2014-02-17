@@ -20,6 +20,9 @@ import java.awt.event.InputEvent;
 import java.io.File;
 import java.util.HashMap;
 import java.util.StringTokenizer;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import java.util.prefs.BackingStoreException;
 import java.util.prefs.Preferences;
 import javax.swing.Action;
 import javax.swing.JTabbedPane;
@@ -714,8 +717,11 @@ public class RTextPreferences extends GUIApplicationPreferences
 			prefs.put(actionName,
 				getKeyStrokeString(getAccelerator(actionName)));
 		}
-
-		//prefs.flush();
+    try {
+      prefs.flush();
+    } catch (BackingStoreException ex) {
+      System.out.println("[error] prefs not saved");
+    }
 		prefs = null;
 
 	}

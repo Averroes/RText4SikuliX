@@ -174,7 +174,7 @@ public class RText extends AbstractPluggableGUIApplication
 	 */
 	public static final String PROPERTY_PRINT_START_TIMES = "printStartTimes";
 
-	public static final String VERSION_STRING		= "2.5.2.????????-beta";
+	public static final String VERSION_STRING		= "1.1.0-Beta1";
 
 
 	/**
@@ -1665,6 +1665,7 @@ public class RText extends AbstractPluggableGUIApplication
 	public void openFile(final String filename) {
 		//gets called when we receive an open event from the finder on OS X
 		SwingUtilities.invokeLater(new Runnable() {
+      @Override
 			public void run() {
 				// null encoding means check for Unicode before using
 				// system default encoding.
@@ -1699,6 +1700,7 @@ public class RText extends AbstractPluggableGUIApplication
 
 		// Swing stuff should always be done on the EDT...
 		SwingUtilities.invokeLater(new Runnable() {
+      @Override
 			public void run() {
 
 				String lafName = RTextPreferences.getLookAndFeelToLoad();
